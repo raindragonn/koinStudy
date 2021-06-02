@@ -140,7 +140,7 @@ class KoinApplication : Application() {
             }
 
             //사용할 context 등록
-            androidContext(this@KoinApplication)
+            androidContext(this@KoinApplication )
 
             // 사용할 모듈 등록
             // modules(appModule, viewModelModule) 처럼 한번에도 가능
@@ -193,11 +193,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun observe() = with(viewModel) {
-        isLoading.observe(this@MainActivity) {
+        isLoading.observe(this@MainActivity ) {
             binding.pbLoading.isVisible = it
         }
 
-        text.observe(this@MainActivity) {
+        text.observe(this@MainActivity ) {
             binding.tvPerson.text = it
         }
     }
