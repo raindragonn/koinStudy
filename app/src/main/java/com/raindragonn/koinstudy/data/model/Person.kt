@@ -1,4 +1,4 @@
-package com.raindragonn.koinstudy.data
+package com.raindragonn.koinstudy.data.model
 
 // Created by raindragonn on 2021/06/01.
 

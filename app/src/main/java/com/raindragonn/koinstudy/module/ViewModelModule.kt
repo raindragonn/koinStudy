@@ -1,6 +1,6 @@
 package com.raindragonn.koinstudy.module
 
-import com.raindragonn.koinstudy.MainViewModel
+import com.raindragonn.koinstudy.ui.main.MainViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 
